@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReelOps.ai - AI Advisory for iGaming</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-[#2b2b58]" style="--brand-dark: #2b2b58; --brand-orange: #ff761f; --brand-bg: #eff0f3;">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white shadow-sm z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0">
+                    <img src="reelops_logo_ dark.png" alt="ReelOps.ai" class="h-14">
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="text-gray-600 hover:text-[#ff761f] transition">About</a>
+                    <a href="#services" class="text-gray-600 hover:text-[#ff761f] transition">Services</a>
+                    <a href="#contact" class="text-gray-600 hover:text-[#ff761f] transition">Contact</a>
+                </div>
+
+                <!-- Mobile Navigation Button -->
+                <div class="md:hidden">
+                    <button class="mobile-menu-btn p-2" id="mobileMenuBtn">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation Menu -->
+            <div class="hidden md:hidden pb-4 mobile-menu" id="mobileMenu">
+                <a href="#about" class="block py-2 text-gray-600 hover:text-[#ff761f]">About</a>
+                <a href="#services" class="block py-2 text-gray-600 hover:text-[#ff761f]">Services</a>
+                <a href="#contact" class="block py-2 text-gray-600 hover:text-[#ff761f]">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#2b2b58] mb-6">
+                AI Advisory for the iGaming Industry
+            </h1>
+            <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                Helping operators, platforms, and game studios apply AI to real-world challenges — from game development to operational workflows.
+            </p>
+            <p class="text-lg text-gray-500 mb-12 leading-relaxed">
+                Built by experts with deep experience in B2B iGaming technology and casino game development.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button class="px-8 py-3 bg-[#ff761f] text-white font-semibold rounded-lg hover:bg-[#e55e0a] transition shadow-md">
+                    Book a Consultation
+                </button>
+                <button class="px-8 py-3 bg-[#eff0f3] text-[#2b2b58] font-semibold rounded-lg hover:bg-[#d0d2dd] transition border border-[#2b2b58]">
+                    Contact Us
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4 sm:px-6 lg:px-8 bg-[#eff0f3]">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-[#2b2b58] mb-12 text-center">
+                Industry Expertise Meets Practical AI
+            </h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-xl font-semibold text-[#2b2b58] mb-4">Deep iGaming Knowledge</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        We bring years of hands-on experience in B2B iGaming platforms, casino game development, and the supplier ecosystem. We understand the technical challenges, business constraints, and operational realities of the industry.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-[#2b2b58] mb-4">Practical AI Implementation</h3>
+                    <p class="text-gray-600 leading-relaxed mb-6">
+                        We focus on real-world AI solutions that solve genuine problems. Not theoretical concepts — practical tools and strategies that operators, platforms, and studios can implement and measure.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-[#2b2b58] mb-16 text-center">
+                Our Services
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- AI Strategy Card -->
+                <div class="p-8 bg-[#eff0f3] rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-[#ff761f]">
+                    <h3 class="text-2xl font-semibold text-[#2b2b58] mb-6">AI Strategy for iGaming</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-[#ff761f] mr-3 font-semibold">•</span>
+                            <span>AI opportunity assessments</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-[#ff761f] mr-3 font-semibold">•</span>
+                            <span>AI roadmap development</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-[#ff761f] mr-3 font-semibold">•</span>
+                            <span>AI product strategy</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-[#ff761f] mr-3 font-semibold">•</span>
+                            <span>Vendor and tool selection</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- AI Implementation Card -->
+                <div class="p-8 bg-[#eff0f3] rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-[#ff761f]">
+                    <h3 class="text-2xl font-semibold text-[#2b2b58] mb-6">AI Implementation</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-[#ff761f] mr-3 font-semibold">•</span>
+                            <span>Workflow automation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-[#ff761f] mr-3 font-semibold">•</span>
+                            <span>AI analytics</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-[#ff761f] mr-3 font-semibold">•</span>
+                            <span>AI internal tools</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-[#ff761f] mr-3 font-semibold">•</span>
+                            <span>Development productivity</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Game Development Advisory Card -->
+                <div class="p-8 bg-[#eff0f3] rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-[#ff761f]">
+                    <h3 class="text-2xl font-semibold text-[#2b2b58] mb-6">Game Development Advisory</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-[#ff761f] mr-3 font-semibold">•</span>
+                            <span>Slot game concept development</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-[#ff761f] mr-3 font-semibold">•</span>
+                            <span>Game mechanics and maths</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-[#ff761f] mr-3 font-semibold">•</span>
+                            <span>Studio production pipelines</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-[#ff761f] mr-3 font-semibold">•</span>
+                            <span>Development optimisation</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- B2B iGaming Strategy Card -->
+                <div class="p-8 bg-[#eff0f3] rounded-lg shadow-sm hover:shadow-md transition border-l-4 border-[#ff761f]">
+                    <h3 class="text-2xl font-semibold text-[#2b2b58] mb-6">B2B iGaming Strategy</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start">
+                            <span class="text-[#ff761f] mr-3 font-semibold">•</span>
+                            <span>Supplier strategy</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-[#ff761f] mr-3 font-semibold">•</span>
+                            <span>Aggregation strategy</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-[#ff761f] mr-3 font-semibold">•</span>
+                            <span>Market entry</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-[#ff761f] mr-3 font-semibold">•</span>
+                            <span>Product positioning</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Work With Us Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-[#eff0f3]">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-[#2b2b58] mb-16 text-center">
+                Why Work With Us
+            </h2>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="mb-4">
+                        <div class="w-12 h-12 bg-[#ff761f] rounded-full mx-auto"></div>
+                    </div>
+                    <h3 class="text-lg font-semibold text-[#2b2b58] mb-2">Deep iGaming Expertise</h3>
+                    <p class="text-gray-600 text-sm">Real experience in the B2B iGaming ecosystem and casino game development</p>
+                </div>
+                <div class="text-center">
+                    <div class="mb-4">
+                        <div class="w-12 h-12 bg-[#ff761f] rounded-full mx-auto"></div>
+                    </div>
+                    <h3 class="text-lg font-semibold text-[#2b2b58] mb-2">Practical Solutions</h3>
+                    <p class="text-gray-600 text-sm">AI solutions focused on real business outcomes, not theoretical concepts</p>
+                </div>
+                <div class="text-center">
+                    <div class="mb-4">
+                        <div class="w-12 h-12 bg-[#ff761f] rounded-full mx-auto"></div>
+                    </div>
+                    <h3 class="text-lg font-semibold text-[#2b2b58] mb-2">B2B Industry Experience</h3>
+                    <p class="text-gray-600 text-sm">We understand the complexity of B2B decision-making and operations</p>
+                </div>
+                <div class="text-center">
+                    <div class="mb-4">
+                        <div class="w-12 h-12 bg-[#ff761f] rounded-full mx-auto"></div>
+                    </div>
+                    <h3 class="text-lg font-semibold text-[#2b2b58] mb-2">Independent Advisory</h3>
+                    <p class="text-gray-600 text-sm">Unbiased recommendations based on your business needs, not vendor interests</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-[#2b2b58] mb-16 text-center">
+                Example Use Cases
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 border-2 border-[#ff761f] rounded-lg hover:shadow-md transition bg-white">
+                    <h3 class="text-lg font-semibold text-[#2b2b58] mb-3">Game Studio Workflows</h3>
+                    <p class="text-gray-600">Automating game studio workflows to accelerate production cycles and improve team productivity</p>
+                </div>
+                <div class="p-6 border-2 border-[#ff761f] rounded-lg hover:shadow-md transition bg-white">
+                    <h3 class="text-lg font-semibold text-[#2b2b58] mb-3">Player Behaviour Analysis</h3>
+                    <p class="text-gray-600">Using AI to analyse player behaviour patterns and identify opportunities for product optimization</p>
+                </div>
+                <div class="p-6 border-2 border-[#ff761f] rounded-lg hover:shadow-md transition bg-white">
+                    <h3 class="text-lg font-semibold text-[#2b2b58] mb-3">Internal AI Tools</h3>
+                    <p class="text-gray-600">Building custom internal AI tools that enhance operational efficiency and decision-making</p>
+                </div>
+                <div class="p-6 border-2 border-[#ff761f] rounded-lg hover:shadow-md transition bg-white">
+                    <h3 class="text-lg font-semibold text-[#2b2b58] mb-3">Game Design Process</h3>
+                    <p class="text-gray-600">Improving game design processes with AI-powered analytics and concept validation</p>
+                </div>
+                <div class="p-6 border-2 border-[#ff761f] rounded-lg hover:shadow-md transition bg-white">
+                    <h3 class="text-lg font-semibold text-[#2b2b58] mb-3">Operational Efficiency</h3>
+                    <p class="text-gray-600">Driving operational efficiency through AI automation of repetitive tasks and workflows</p>
+                </div>
+                <div class="p-6 border-2 border-[#ff761f] rounded-lg hover:shadow-md transition bg-white">
+                    <h3 class="text-lg font-semibold text-[#2b2b58] mb-3">Platform Strategy</h3>
+                    <p class="text-gray-600">Strategic AI guidance for platform operators and suppliers navigating market dynamics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 px-4 sm:px-6 lg:px-8 bg-[#2b2b58] text-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-6">
+                Explore AI Opportunities in Your iGaming Business
+            </h2>
+            <p class="text-lg text-gray-300 mb-12 leading-relaxed">
+                Whether you're an operator, platform, or game studio, we can help you understand where AI creates real value in your business. Let's discuss your specific challenges and opportunities.
+            </p>
+            <button class="px-8 py-3 bg-[#ff761f] text-white font-semibold rounded-lg hover:bg-[#e55e0a] transition shadow-md">
+                Book a Consultation
+            </button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 bg-[#eff0f3]">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="text-3xl sm:text-4xl font-bold text-[#2b2b58] mb-12 text-center">
+                Get in Touch
+            </h2>
+            <form class="space-y-6" id="contactForm">
+                <div>
+                    <label for="name" class="block text-sm font-semibold text-[#2b2b58] mb-2">Name</label>
+                    <input type="text" id="name" name="name" required class="w-full px-4 py-2 border border-[#d0d2dd] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff761f]" placeholder="Your name">
+                </div>
+                <div>
+                    <label for="company" class="block text-sm font-semibold text-[#2b2b58] mb-2">Company</label>
+                    <input type="text" id="company" name="company" required class="w-full px-4 py-2 border border-[#d0d2dd] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff761f]" placeholder="Your company">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-semibold text-[#2b2b58] mb-2">Email</label>
+                    <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-[#d0d2dd] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff761f]" placeholder="your@email.com">
+                </div>
+                <div>
+                    <label for="website" class="block text-sm font-semibold text-[#2b2b58] mb-2">Website <span class="text-gray-500 text-xs">(optional)</span></label>
+                    <input type="url" id="website" name="website" class="w-full px-4 py-2 border border-[#d0d2dd] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff761f]" placeholder="https://yourwebsite.com">
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-semibold text-[#2b2b58] mb-2">Message</label>
+                    <textarea id="message" name="message" required rows="5" class="w-full px-4 py-2 border border-[#d0d2dd] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#ff761f]" placeholder="Tell us about your project or inquiry..."></textarea>
+                </div>
+                <button type="submit" class="w-full px-8 py-3 bg-[#ff761f] text-white font-semibold rounded-lg hover:bg-[#e55e0a] transition shadow-md">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#2b2b58] text-gray-400 py-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="text-white font-semibold mb-2">ReelOps.ai</h3>
+                    <p class="text-sm">AI Advisory for the iGaming Industry</p>
+                </div>
+                <div>
+                    <h3 class="text-white font-semibold mb-2">Contact</h3>
+                    <p class="text-sm"><a href="mailto:hello@reelops.ai" class="hover:text-white transition">hello@reelops.ai</a></p>
+                </div>
+                <div>
+                    <h3 class="text-white font-semibold mb-2">Follow</h3>
+                    <p class="text-sm"><a href="https://linkedin.com" target="_blank" class="hover:text-white transition">LinkedIn</a></p>
+                </div>
+            </div>
+            <div class="border-t border-[#1f1f3f] pt-8 text-sm text-center text-gray-500">
+                <p>&copy; 2024 ReelOps.ai. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        mobileMenuBtn.addEventListener('click', function() {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Form submission handler
+        const contactForm = document.getElementById('contactForm');
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            // Form is structured to connect to an API or email service later
+            alert('Thank you for your message. We will get back to you soon!');
+            contactForm.reset();
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
